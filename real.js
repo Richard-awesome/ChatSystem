@@ -45,12 +45,7 @@ else if(input.value.toLowerCase() == 'coffee'){
   }
   }, 1000);
 }
- else  if(input.value.toLowerCase() !== ''){
-  setTimeout(() => {
-    contain.innerHTML += `<p class="yours">That's really cool!</p>`  
-  }, 1000);
-  
-} 
+ 
 localStorage.setItem('cook', contain.innerHTML)
   input.value = ''
 }
