@@ -54,5 +54,3 @@ else if(input.value.toLowerCase() == 'coffee'){
 localStorage.setItem('cook', contain.innerHTML)
   input.value = ''
 }
-
- contain.innerHTML = localStorage.getItem('cook')
